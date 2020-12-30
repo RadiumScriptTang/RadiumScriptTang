@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.0"></script><script>(getMarkmap => {
+          window.WebFontConfig = {
+            custom: {
+              families: ['KaTeX_AMS', 'KaTeX_Caligraphic:n4,n7', 'KaTeX_Fraktur:n4,n7', 'KaTeX_Main:n4,n7,i4,i7', 'KaTeX_Math:i4,i7', 'KaTeX_Script', 'KaTeX_SansSerif:n4,n7,i4', 'KaTeX_Size1', 'KaTeX_Size2', 'KaTeX_Size3', 'KaTeX_Size4', 'KaTeX_Typewriter']
+            },
+            active: () => {
+              getMarkmap().refreshHook.call();
+            }
+          };
+        })(() => window.markmap)</script><script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" defer></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(function anonymous(
+) {
+const toolbar = new markmap.Toolbar();
+toolbar.attach(mm);
+const el = toolbar.render();
+el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+document.body.append(el);
+})</script><script>((getMarkmap, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', null, data);
+      })(() => window.markmap,{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{},"v":"概述","c":[{"t":"heading","d":2,"p":{},"v":"软件","c":[{"t":"heading","d":3,"p":{},"v":"指令：使计算机提供功能和性能"},{"t":"heading","d":3,"p":{},"v":"数据结构： 使程序能操纵信息"},{"t":"heading","d":3,"p":{},"v":"文档： 记录程序产生、功能和使用"}]},{"t":"heading","d":2,"p":{},"v":"软件危机","c":[{"t":"heading","d":3,"p":{},"v":"泛指因为软件错误引发的问题"},{"t":"heading","d":3,"p":{},"v":"两难境地：无法达到最初目标"},{"t":"heading","d":3,"p":{},"v":"死亡行军： 按照进度表几乎不可能完成的项目"}]},{"t":"heading","d":2,"p":{},"v":"项目阶段","c":[{"t":"heading","d":3,"p":{},"v":"标记是一个或几个可交付的物件，可交付物件是一个具体的可验证的工作产品"},{"t":"heading","d":3,"p":{},"v":"项目阶段的结束是由关键交付物或项目性能标记的"}]},{"t":"heading","d":2,"p":{},"v":"项目生命周期","c":[{"t":"heading","d":3,"p":{},"v":"定义了项目的<strong>开始与结束</strong>"},{"t":"heading","d":3,"p":{},"v":"定义各阶段要完成的技术工作"},{"t":"heading","d":3,"p":{},"v":"定义每个阶段涉及的人员"}]},{"t":"heading","d":2,"p":{},"v":"软件项目","c":[{"t":"heading","d":3,"p":{},"v":"特征","c":[{"t":"heading","d":4,"p":{},"v":"不可见性"},{"t":"heading","d":4,"p":{},"v":"复杂性"},{"t":"heading","d":4,"p":{},"v":"灵活性：软件去适应人或组织"}]},{"t":"heading","d":3,"p":{},"v":"包含的活动","c":[{"t":"heading","d":4,"p":{},"v":"需求分析"},{"t":"heading","d":4,"p":{},"v":"描述"},{"t":"heading","d":4,"p":{},"v":"设计"},{"t":"heading","d":4,"p":{},"v":"编码"},{"t":"heading","d":4,"p":{},"v":"校验"},{"t":"heading","d":4,"p":{},"v":"安装"},{"t":"heading","d":4,"p":{},"v":"维护"},{"t":"heading","d":4,"p":{},"v":"支持"}]},{"t":"heading","d":3,"p":{},"v":"目标","c":[{"t":"heading","d":4,"p":{},"v":"项目目标必须清晰定义"},{"t":"heading","d":4,"p":{},"v":"有效的目标必须易于测量"},{"t":"heading","d":4,"p":{},"v":"可以设置子目标"}]}]}]},{"t":"heading","d":1,"p":{},"v":"项目计划总览","c":[{"t":"heading","d":2,"p":{},"v":"计划过程","c":[{"t":"heading","d":3,"p":{},"v":"选择目标"},{"t":"heading","d":3,"p":{},"v":"确定项目范围和目标","c":[{"t":"heading","d":4,"p":{},"v":"确定目标及恒联那个方法"},{"t":"heading","d":4,"p":{},"v":"确定项目责任人"},{"t":"heading","d":4,"p":{},"v":"建立各方通信渠道"}]},{"t":"heading","d":3,"p":{},"v":"确定项目结构"},{"t":"heading","d":3,"p":{},"v":"分析项目特征"},{"t":"heading","d":3,"p":{},"v":"确定项目产品和活动","c":[{"t":"heading","d":4,"p":{},"v":"确定和描述项目产品或交付物"},{"t":"heading","d":4,"p":{},"v":"写出一般性生产流程"},{"t":"heading","d":4,"p":{},"v":"确定产品实例"},{"t":"heading","d":4,"p":{},"v":"定义活动网络"},{"t":"heading","d":4,"p":{},"v":"几个术语","c":[{"t":"heading","d":5,"p":{},"v":"PBS Product Breakdown Structure： 产品分解结构"},{"t":"heading","d":5,"p":{},"v":"PFD Product Flow Diagram： 产品流图"}]}]},{"t":"heading","d":3,"p":{},"v":"估计每个活动的工作量"},{"t":"heading","d":3,"p":{},"v":"确定活动风险"},{"t":"heading","d":3,"p":{},"v":"分配资源"},{"t":"heading","d":3,"p":{},"v":"检查公布计划"},{"t":"heading","d":3,"p":{},"v":"执行计划"},{"t":"heading","d":3,"p":{},"v":"更细层次的计划"}]}]},{"t":"heading","d":1,"p":{},"v":"项目评估","c":[{"t":"heading","d":2,"p":{},"v":"项目评估原则","c":[{"t":"heading","d":3,"p":{},"v":"投入产出相匹配原则"},{"t":"heading","d":3,"p":{},"v":"面向需求原则"},{"t":"heading","d":3,"p":{},"v":"资金时间价值原则"},{"t":"heading","d":3,"p":{},"v":"公正性原则"},{"t":"heading","d":3,"p":{},"v":"科学性原则"},{"t":"heading","d":3,"p":{},"v":"客观性原则"}]},{"t":"heading","d":2,"p":{},"v":"与项目可行性的区别","c":[{"t":"heading","d":3,"p":{},"v":"主体不同，一般不同机构"},{"t":"heading","d":3,"p":{},"v":"视角和着重点不同，项目评估注重宏观效益， 可行性注重从企业角度评价"},{"t":"heading","d":3,"p":{},"v":"任务和目的不同， 可行性轮中技术，规划多种方案，评估一般借助可行性的成果进行审查"},{"t":"heading","d":3,"p":{},"v":"可行性在前，项目评估在后，可行性是评估的前提，评估为决策提供直接依据"}]},{"t":"heading","d":2,"p":{},"v":"项目评估的内容","c":[{"t":"heading","d":3,"p":{},"v":"策略评估"},{"t":"heading","d":3,"p":{},"v":"操作性评估"},{"t":"heading","d":3,"p":{},"v":"计划评估"},{"t":"heading","d":3,"p":{},"v":"技术评估"},{"t":"heading","d":3,"p":{},"v":"风险评估"},{"t":"heading","d":3,"p":{},"v":"社会可行性评估"},{"t":"heading","d":3,"p":{},"v":"经济可行性评估","c":[{"t":"heading","d":4,"p":{},"v":"成本评估"},{"t":"heading","d":4,"p":{},"v":"可见效益"},{"t":"heading","d":4,"p":{},"v":"不可见效益"}]}]}]},{"t":"heading","d":1,"p":{},"v":"项目方法选择","c":[{"t":"heading","d":2,"p":{},"v":"技术选择","c":[{"t":"heading","d":3,"p":{},"v":"影响","c":[{"t":"heading","d":4,"p":{},"v":"开发人员训练需要"},{"t":"heading","d":4,"p":{},"v":"人员招聘"},{"t":"heading","d":4,"p":{},"v":"开发环境"},{"t":"heading","d":4,"p":{},"v":"系统维护安排"}]},{"t":"heading","d":3,"p":{},"v":"步骤","c":[{"t":"heading","d":4,"p":{},"v":"分析项目时目标驱动还是产品驱动"},{"t":"heading","d":4,"p":{},"v":"分析项目的其他特征，例如面向数据还是面向控制等等"}]}]},{"t":"heading","d":2,"p":{},"v":"考虑风险","c":[{"t":"heading","d":3,"p":{},"v":"产品不确定性：一般是需求变化"},{"t":"heading","d":3,"p":{},"v":"过程不确定性：引入新工具"},{"t":"heading","d":3,"p":{},"v":"资源不确定性"}]},{"t":"heading","d":2,"p":{},"v":"选择方法","c":[{"t":"heading","d":3,"p":{},"v":"瀑布模型","c":[{"t":"heading","d":4,"p":{},"v":"优点： 适合经验不足的团队"},{"t":"heading","d":4,"p":{},"v":"缺点： 缺乏灵活性"}]},{"t":"heading","d":3,"p":{},"v":"V型模型"},{"t":"heading","d":3,"p":{},"v":"生鱼片模型","c":[{"t":"heading","d":4,"p":{},"v":"优点： 灵活性强"},{"t":"heading","d":4,"p":{},"v":"缺点： 里程碑不明确"}]},{"t":"heading","d":3,"p":{},"v":"螺旋模型","c":[{"t":"heading","d":4,"p":{},"v":"优点： 随着迭代风险降低"},{"t":"heading","d":4,"p":{},"v":"缺点： 比较复杂"}]},{"t":"heading","d":3,"p":{},"v":"原型法","c":[{"t":"heading","d":4,"p":{},"v":"优点： 从实践中学习"},{"t":"heading","d":4,"p":{},"v":"缺点： 额外花费等"}]}]}]},{"t":"heading","d":1,"p":{},"v":"目标，范围及需求管理","c":[{"t":"heading","d":2,"p":{},"v":"目标管理","c":[{"t":"heading","d":3,"p":{},"v":"特点","c":[{"t":"heading","d":4,"p":{},"v":"多目标性"},{"t":"heading","d":4,"p":{},"v":"优先性"},{"t":"heading","d":4,"p":{},"v":"层次性"}]}]},{"t":"heading","d":2,"p":{},"v":"范围管理","c":[{"t":"heading","d":3,"p":{},"v":"范围","c":[{"t":"heading","d":4,"p":{},"v":"产品范围"},{"t":"heading","d":4,"p":{},"v":"产品规格"},{"t":"heading","d":4,"p":{},"v":"项目范围"}]},{"t":"heading","d":3,"p":{},"v":"管理过程","c":[{"t":"heading","d":4,"p":{},"v":"启动"},{"t":"heading","d":4,"p":{},"v":"范围计划"},{"t":"heading","d":4,"p":{},"v":"范围定义"},{"t":"heading","d":4,"p":{},"v":"范围核实"},{"t":"heading","d":4,"p":{},"v":"范围变更控制"}]}]},{"t":"heading","d":2,"p":{},"v":"需求管理","c":[{"t":"heading","d":3,"p":{},"v":"好的需求的特性","c":[{"t":"heading","d":4,"p":{},"v":"完整性"},{"t":"heading","d":4,"p":{},"v":"正确性"},{"t":"heading","d":4,"p":{},"v":"可行性"},{"t":"heading","d":4,"p":{},"v":"必要性"},{"t":"heading","d":4,"p":{},"v":"无二义性"}]},{"t":"heading","d":3,"p":{},"v":"需求来源","c":[{"t":"heading","d":4,"p":{},"v":"瞎编吧"}]},{"t":"heading","d":3,"p":{},"v":"需求采集方式","c":[{"t":"heading","d":4,"p":{},"v":"访谈"},{"t":"heading","d":4,"p":{},"v":"研讨班"}]}]}]},{"t":"heading","d":1,"p":{},"v":"软件项目工作量估算","c":[{"t":"heading","d":2,"p":{},"v":"工作量估计困难的原因","c":[{"t":"heading","d":3,"p":{},"v":"由于软件的本质"},{"t":"heading","d":3,"p":{},"v":"人力密集型工作"},{"t":"heading","d":3,"p":{},"v":"大部分软件项目独一无二"},{"t":"heading","d":3,"p":{},"v":"新技术"},{"t":"heading","d":3,"p":{},"v":"缺少经验"}]},{"t":"heading","d":2,"p":{},"v":"估计技术","c":[{"t":"heading","d":3,"p":{},"v":"算术模型"},{"t":"heading","d":3,"p":{},"v":"专家判断"},{"t":"heading","d":3,"p":{},"v":"对比法"},{"t":"heading","d":3,"p":{},"v":"自顶向下"},{"t":"heading","d":3,"p":{},"v":"自下而上"}]}]},{"t":"heading","d":1,"p":{},"v":"软件项目计划","c":[{"t":"heading","d":2,"p":{},"v":"软件项目计划的目的","c":[{"t":"heading","d":3,"p":{},"v":"保证在正确的时间有正确的资源可用"},{"t":"heading","d":3,"p":{},"v":"避免资源竞争"},{"t":"heading","d":3,"p":{},"v":"为每个人员分配任务"},{"t":"heading","d":3,"p":{},"v":"可行性研究"}]},{"t":"heading","d":2,"p":{},"v":"术语","c":[{"t":"heading","d":3,"p":{},"v":"CPM Critical Path Method 关键路径发"},{"t":"heading","d":3,"p":{},"v":"PERT 计划评审技术"}]}]},{"t":"heading","d":1,"p":{},"v":"资源管理","c":[{"t":"heading","d":2,"p":{},"v":"资源管理目的","c":[{"t":"heading","d":3,"p":{},"v":"活动调度"},{"t":"heading","d":3,"p":{},"v":"资源调度"},{"t":"heading","d":3,"p":{},"v":"成本调度"}]}]},{"t":"heading","d":1,"p":{},"v":"软件项目监控","c":[{"t":"heading","d":2,"p":{},"v":"监控的内容","c":[{"t":"heading","d":3,"p":{},"v":"项目进展"},{"t":"heading","d":3,"p":{},"v":"项目偏差"},{"t":"heading","d":3,"p":{},"v":"修改偏差"}]},{"t":"heading","d":2,"p":{},"v":"监控框架","c":[{"t":"heading","d":3,"p":{},"v":"责任：确定委员会负责进度"},{"t":"heading","d":3,"p":{},"v":"进度评估"},{"t":"heading","d":3,"p":{},"v":"检查点设置"},{"t":"heading","d":3,"p":{},"v":"检测频率"}]},{"t":"heading","d":2,"p":{},"v":"变更控制","c":[{"t":"heading","d":3,"p":{},"v":"用户→用户端管理者→项目承担者→形成报告→用户→代替旧版本"}]}]},{"t":"heading","d":1,"p":{},"v":"风险管理","c":[{"t":"heading","d":2,"p":{},"v":"风险来源","c":[{"t":"heading","d":3,"p":{},"v":"<strong>估计</strong>本身的困难带来的风险"},{"t":"heading","d":3,"p":{},"v":"计划阶段的假设"},{"t":"heading","d":3,"p":{},"v":"无法预计的时间"}]},{"t":"heading","d":2,"p":{},"v":"风险管理的基础结构","c":[{"t":"heading","d":3,"p":{},"v":"制定政策"},{"t":"heading","d":3,"p":{},"v":"定义标准过程"},{"t":"heading","d":3,"p":{},"v":"风险管理培训"},{"t":"heading","d":3,"p":{},"v":"检验一致性"},{"t":"heading","d":3,"p":{},"v":"改进实践"}]},{"t":"heading","d":2,"p":{},"v":"风险管理技术","c":[{"t":"heading","d":3,"p":{},"v":"风险识别"},{"t":"heading","d":3,"p":{},"v":"风险估计"},{"t":"heading","d":3,"p":{},"v":"风险评估"},{"t":"heading","d":3,"p":{},"v":"风险计划"},{"t":"heading","d":3,"p":{},"v":"风险控制"},{"t":"heading","d":3,"p":{},"v":"风险监测"}]},{"t":"heading","d":2,"p":{},"v":"计算公式 期待时间<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">t</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.61508em;vertical-align:0em;\"></span><span class=\"mord mathnormal\">t</span></span></span></span>= <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mn>4</mn><mi>m</mi><mo>+</mo><mi>b</mi></mrow><mn>6</mn></mfrac></mrow><annotation encoding=\"application/x-tex\">\\frac{a + 4m + b}{6}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.2251079999999999em;vertical-align:-0.345em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8801079999999999em;\"><span style=\"top:-2.6550000000000002em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">6</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">a</span><span class=\"mbin mtight\">+</span><span class=\"mord mtight\">4</span><span class=\"mord mathnormal mtight\">m</span><span class=\"mbin mtight\">+</span><span class=\"mord mathnormal mtight\">b</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span></span></span></span>, ab分别是乐观和悲观时间，m是期望时间"}]}],"p":{}})</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+	let e = document.createEvent("MouseEvents");
+	e.initMouseEvent("click",true,true);
+	let rects = document.getElementsByTagName("rect");
+	let lastCircles = [];
+	for(let i = 0; i < rects.length; i++){
+		if((rects[i].attributes.height.value == "4" || rects[i].attributes.height.value == "2") && rects[i].parentElement.childElementCount === 3){
+			lastCircles.push(rects[i].parentElement.children[2]);
+		}
+	}
+	for(let i = 0; i < lastCircles.length; i++){
+		lastCircles[i].dispatchEvent(e);
+	}
+	$(document).ready(function(){
+		document.getElementsByClassName("mm-toolbar-item")[2].dispatchEvent(e)	
+		$("circle, g").click(function(){
+				document.getElementsByClassName("mm-toolbar-item")[2].dispatchEvent(e)	
+
+		});
+	});
+</script>
+</body>
+</html>
