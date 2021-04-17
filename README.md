@@ -6,3 +6,7 @@
 
 ## 友情链接
 [计算机网络会议DDL](http://ddl.huangjunqin.com/?sub=DS,CN,SP)
+
+$$
+E = mc^2
+$$
