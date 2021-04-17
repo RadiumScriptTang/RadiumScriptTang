@@ -7,6 +7,8 @@
 ## 友情链接
 [计算机网络会议DDL](http://ddl.huangjunqin.com/?sub=DS,CN,SP)
 
+GitHub的md是不支持公式的，例如：
+
 $$
 E = mc^2
 $$
